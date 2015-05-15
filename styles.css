@@ -1,0 +1,29 @@
+a.attribute-toggle,
+a.attribute-toggle:focus
+{
+    font-size: 12px;
+    display: block;
+    outline: none;
+}
+
+a.attribute-toggle.active
+{
+    color: black;
+}
+
+a.attribute-toggle:after
+{
+    font-size: 8px;
+    content: ' \25BC';
+}
+a.attribute-toggle.active:after
+{
+    font-size: 8px;
+    content: ' \25B2';
+}
+
+body.woocommerce-page .checkout .cart_item .variation,
+.product_list_widget .variation
+{
+    display: none;
+}
